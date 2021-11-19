@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="forecast"></div>
+        <div id="theWeather" class="card">
+            <h2 data-city></h2>
+            <p data-humidity></p>
+            <div class="tempNumbers">
+                <p data-maxTemp></p>
+                <div>
+                    <p data-temp></p>
+                    <p data-feel></p>
+                </div>
+                <p data-minTemp></p>
+            </div>
+            <div class="inform">
+                <p data-weather></p>
+                <p data-wind></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

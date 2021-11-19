@@ -1,0 +1,85 @@
+.container{
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 5px solid rgb(112, 149, 230);
+    border-radius: 15px;
+    position: relative;
+    background-color: rgba(0, 206, 209, 0.185);
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.container #forecast{
+    
+    height: min-content;
+    text-align: center;
+    background-color: rgba(27, 218, 202, 0.986);
+    padding: 10px;
+    margin: 0;
+    border-radius: 12px 12px 0 0;
+}
+
+.my-city-list{
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(112, 112, 230);
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    color: darkblue;
+}
+
+.tempNumbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+[data-city] {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    color: darkmagenta;
+}
+[data-humidity]{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+}
+.tempNumbers div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+[data-feel],
+
+[data-maxTemp],
+[data-temp],
+[data-feel],
+[data-minTemp]{
+    font-family: 'Graduate', cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    max-width: min-content;
+}
+[data-temp]{
+    font-size: 2rem;
+    text-align: center;
+    justify-self: auto;
+}
+[data-feel]{
+    max-width: min-content;
+}
+
+.inform{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
