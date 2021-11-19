@@ -1,4 +1,4 @@
-const appid = '4b2334f146d0dd13fbb9d1464b3394d9';
+const appid = '';
 let weatherData;
 
 $.getJSON("./il.cities.json", function (data) {
